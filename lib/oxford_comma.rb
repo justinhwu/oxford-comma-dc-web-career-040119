@@ -4,6 +4,6 @@ if array.length == 1
 elsif array.length ==2
 array.join(" and ")
 else
-array[0..array.length-1].join(", ") << ", and #{array[array.length]}"
+array[0..array.length-2].join(", ") << ", and #{array[array.length]}"
 end
 end
