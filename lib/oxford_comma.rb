@@ -5,6 +5,6 @@ elsif array.length ==2
 array.join(" and ")
 elsif array.length ==3
 elsif array.length >3 
-
+array.split(",")
 end
 end
