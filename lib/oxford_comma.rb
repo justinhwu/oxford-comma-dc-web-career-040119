@@ -6,6 +6,6 @@ array.join(" and ")
 elsif array.length ==3
 false
 elsif array.length >3 
-array.split(",")
+array.join(",")
 end
 end
